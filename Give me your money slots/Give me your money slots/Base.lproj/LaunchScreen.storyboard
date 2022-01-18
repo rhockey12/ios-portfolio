@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MoneyBackground" translatesAutoresizingMaskIntoConstraints="NO" id="l7p-sr-8h3">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Hi-w0-XdI">
+                                <rect key="frame" x="125" y="315" width="125.5" height="37.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="27"/>
+                                <color key="textColor" red="1" green="0.22493847259999999" blue="0.076394149290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="l7p-sr-8h3" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="3k1-1R-Fya"/>
+                            <constraint firstAttribute="trailing" secondItem="l7p-sr-8h3" secondAttribute="trailing" id="NSg-5Z-fs0"/>
+                            <constraint firstItem="0Hi-w0-XdI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="REl-MJ-nyO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="l7p-sr-8h3" secondAttribute="trailing" id="Rbd-wI-4yZ"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="l7p-sr-8h3" secondAttribute="bottom" id="TLu-ep-Zem"/>
+                            <constraint firstItem="l7p-sr-8h3" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="XUG-y8-t2E"/>
+                            <constraint firstAttribute="bottom" secondItem="l7p-sr-8h3" secondAttribute="bottom" id="oO4-vV-zEq"/>
+                            <constraint firstItem="l7p-sr-8h3" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="v4u-T4-gV4"/>
+                            <constraint firstItem="0Hi-w0-XdI" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="xlI-bx-Wm6"/>
+                            <constraint firstItem="l7p-sr-8h3" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="zes-OI-jse"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MoneyBackground" width="1080" height="1920"/>
+    </resources>
+</document>

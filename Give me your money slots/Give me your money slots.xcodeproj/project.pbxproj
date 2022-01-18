@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F90DBCD2165220F00CD8A0F /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F90DBCC2165220F00CD8A0F /* ViewController2.swift */; };
+		9FF8DC48215022AD0030DFDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8DC47215022AD0030DFDC /* AppDelegate.swift */; };
+		9FF8DC4A215022AD0030DFDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8DC49215022AD0030DFDC /* ViewController.swift */; };
+		9FF8DC4D215022AD0030DFDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF8DC4B215022AD0030DFDC /* Main.storyboard */; };
+		9FF8DC4F215022AD0030DFDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF8DC4E215022AD0030DFDC /* Assets.xcassets */; };
+		9FF8DC52215022AD0030DFDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF8DC50215022AD0030DFDC /* LaunchScreen.storyboard */; };
+		9FF8DC5D215022AD0030DFDC /* Give_me_your_money_slotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8DC5C215022AD0030DFDC /* Give_me_your_money_slotsTests.swift */; };
+		9FF8DC68215022AD0030DFDC /* Give_me_your_money_slotsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF8DC67215022AD0030DFDC /* Give_me_your_money_slotsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FF8DC59215022AD0030DFDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FF8DC3C215022AD0030DFDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FF8DC43215022AD0030DFDC;
+			remoteInfo = "Give me your money slots";
+		};
+		9FF8DC64215022AD0030DFDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FF8DC3C215022AD0030DFDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FF8DC43215022AD0030DFDC;
+			remoteInfo = "Give me your money slots";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F90DBCC2165220F00CD8A0F /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		9FF8DC44215022AD0030DFDC /* Give me your money slots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Give me your money slots.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF8DC47215022AD0030DFDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FF8DC49215022AD0030DFDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FF8DC4C215022AD0030DFDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FF8DC4E215022AD0030DFDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FF8DC51215022AD0030DFDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FF8DC53215022AD0030DFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF8DC58215022AD0030DFDC /* Give me your money slotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Give me your money slotsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF8DC5C215022AD0030DFDC /* Give_me_your_money_slotsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Give_me_your_money_slotsTests.swift; sourceTree = "<group>"; };
+		9FF8DC5E215022AD0030DFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF8DC63215022AD0030DFDC /* Give me your money slotsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Give me your money slotsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF8DC67215022AD0030DFDC /* Give_me_your_money_slotsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Give_me_your_money_slotsUITests.swift; sourceTree = "<group>"; };
+		9FF8DC69215022AD0030DFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FF8DC41215022AD0030DFDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF8DC55215022AD0030DFDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF8DC60215022AD0030DFDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FF8DC3B215022AD0030DFDC = {
+			isa = PBXGroup;
+			children = (
+				9FF8DC46215022AD0030DFDC /* Give me your money slots */,
+				9FF8DC5B215022AD0030DFDC /* Give me your money slotsTests */,
+				9FF8DC66215022AD0030DFDC /* Give me your money slotsUITests */,
+				9FF8DC45215022AD0030DFDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FF8DC45215022AD0030DFDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FF8DC44215022AD0030DFDC /* Give me your money slots.app */,
+				9FF8DC58215022AD0030DFDC /* Give me your money slotsTests.xctest */,
+				9FF8DC63215022AD0030DFDC /* Give me your money slotsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FF8DC46215022AD0030DFDC /* Give me your money slots */ = {
+			isa = PBXGroup;
+			children = (
+				9FF8DC47215022AD0030DFDC /* AppDelegate.swift */,
+				9FF8DC49215022AD0030DFDC /* ViewController.swift */,
+				9F90DBCC2165220F00CD8A0F /* ViewController2.swift */,
+				9FF8DC4B215022AD0030DFDC /* Main.storyboard */,
+				9FF8DC4E215022AD0030DFDC /* Assets.xcassets */,
+				9FF8DC50215022AD0030DFDC /* LaunchScreen.storyboard */,
+				9FF8DC53215022AD0030DFDC /* Info.plist */,
+			);
+			path = "Give me your money slots";
+			sourceTree = "<group>";
+		};
+		9FF8DC5B215022AD0030DFDC /* Give me your money slotsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FF8DC5C215022AD0030DFDC /* Give_me_your_money_slotsTests.swift */,
+				9FF8DC5E215022AD0030DFDC /* Info.plist */,
+			);
+			path = "Give me your money slotsTests";
+			sourceTree = "<group>";
+		};
+		9FF8DC66215022AD0030DFDC /* Give me your money slotsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FF8DC67215022AD0030DFDC /* Give_me_your_money_slotsUITests.swift */,
+				9FF8DC69215022AD0030DFDC /* Info.plist */,
+			);
+			path = "Give me your money slotsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FF8DC43215022AD0030DFDC /* Give me your money slots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FF8DC6C215022AD0030DFDC /* Build configuration list for PBXNativeTarget "Give me your money slots" */;
+			buildPhases = (
+				9FF8DC40215022AD0030DFDC /* Sources */,
+				9FF8DC41215022AD0030DFDC /* Frameworks */,
+				9FF8DC42215022AD0030DFDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Give me your money slots";
+			productName = "Give me your money slots";
+			productReference = 9FF8DC44215022AD0030DFDC /* Give me your money slots.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FF8DC57215022AD0030DFDC /* Give me your money slotsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FF8DC6F215022AD0030DFDC /* Build configuration list for PBXNativeTarget "Give me your money slotsTests" */;
+			buildPhases = (
+				9FF8DC54215022AD0030DFDC /* Sources */,
+				9FF8DC55215022AD0030DFDC /* Frameworks */,
+				9FF8DC56215022AD0030DFDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FF8DC5A215022AD0030DFDC /* PBXTargetDependency */,
+			);
+			name = "Give me your money slotsTests";
+			productName = "Give me your money slotsTests";
+			productReference = 9FF8DC58215022AD0030DFDC /* Give me your money slotsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FF8DC62215022AD0030DFDC /* Give me your money slotsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FF8DC72215022AD0030DFDC /* Build configuration list for PBXNativeTarget "Give me your money slotsUITests" */;
+			buildPhases = (
+				9FF8DC5F215022AD0030DFDC /* Sources */,
+				9FF8DC60215022AD0030DFDC /* Frameworks */,
+				9FF8DC61215022AD0030DFDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FF8DC65215022AD0030DFDC /* PBXTargetDependency */,
+			);
+			name = "Give me your money slotsUITests";
+			productName = "Give me your money slotsUITests";
+			productReference = 9FF8DC63215022AD0030DFDC /* Give me your money slotsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FF8DC3C215022AD0030DFDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ryan Thomas";
+				TargetAttributes = {
+					9FF8DC43215022AD0030DFDC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 883DK65VTV;
+						ProvisioningStyle = Automatic;
+					};
+					9FF8DC57215022AD0030DFDC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9FF8DC43215022AD0030DFDC;
+					};
+					9FF8DC62215022AD0030DFDC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9FF8DC43215022AD0030DFDC;
+					};
+				};
+			};
+			buildConfigurationList = 9FF8DC3F215022AD0030DFDC /* Build configuration list for PBXProject "Give me your money slots" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FF8DC3B215022AD0030DFDC;
+			productRefGroup = 9FF8DC45215022AD0030DFDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FF8DC43215022AD0030DFDC /* Give me your money slots */,
+				9FF8DC57215022AD0030DFDC /* Give me your money slotsTests */,
+				9FF8DC62215022AD0030DFDC /* Give me your money slotsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FF8DC42215022AD0030DFDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF8DC52215022AD0030DFDC /* LaunchScreen.storyboard in Resources */,
+				9FF8DC4F215022AD0030DFDC /* Assets.xcassets in Resources */,
+				9FF8DC4D215022AD0030DFDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF8DC56215022AD0030DFDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF8DC61215022AD0030DFDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FF8DC40215022AD0030DFDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF8DC4A215022AD0030DFDC /* ViewController.swift in Sources */,
+				9FF8DC48215022AD0030DFDC /* AppDelegate.swift in Sources */,
+				9F90DBCD2165220F00CD8A0F /* ViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF8DC54215022AD0030DFDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF8DC5D215022AD0030DFDC /* Give_me_your_money_slotsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF8DC5F215022AD0030DFDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF8DC68215022AD0030DFDC /* Give_me_your_money_slotsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FF8DC5A215022AD0030DFDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FF8DC43215022AD0030DFDC /* Give me your money slots */;
+			targetProxy = 9FF8DC59215022AD0030DFDC /* PBXContainerItemProxy */;
+		};
+		9FF8DC65215022AD0030DFDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FF8DC43215022AD0030DFDC /* Give me your money slots */;
+			targetProxy = 9FF8DC64215022AD0030DFDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FF8DC4B215022AD0030DFDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FF8DC4C215022AD0030DFDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FF8DC50215022AD0030DFDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FF8DC51215022AD0030DFDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FF8DC6A215022AD0030DFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FF8DC6B215022AD0030DFDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FF8DC6D215022AD0030DFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 883DK65VTV;
+				INFOPLIST_FILE = "Give me your money slots/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.edenpr.cashmoneyslotz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9FF8DC6E215022AD0030DFDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 883DK65VTV;
+				INFOPLIST_FILE = "Give me your money slots/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.edenpr.cashmoneyslotz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9FF8DC70215022AD0030DFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Give me your money slotsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Thomas.Give-me-your-money-slotsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Give me your money slots.app/Give me your money slots";
+			};
+			name = Debug;
+		};
+		9FF8DC71215022AD0030DFDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Give me your money slotsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Thomas.Give-me-your-money-slotsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Give me your money slots.app/Give me your money slots";
+			};
+			name = Release;
+		};
+		9FF8DC73215022AD0030DFDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Give me your money slotsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Thomas.Give-me-your-money-slotsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Give me your money slots";
+			};
+			name = Debug;
+		};
+		9FF8DC74215022AD0030DFDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Give me your money slotsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Thomas.Give-me-your-money-slotsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Give me your money slots";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FF8DC3F215022AD0030DFDC /* Build configuration list for PBXProject "Give me your money slots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF8DC6A215022AD0030DFDC /* Debug */,
+				9FF8DC6B215022AD0030DFDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FF8DC6C215022AD0030DFDC /* Build configuration list for PBXNativeTarget "Give me your money slots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF8DC6D215022AD0030DFDC /* Debug */,
+				9FF8DC6E215022AD0030DFDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FF8DC6F215022AD0030DFDC /* Build configuration list for PBXNativeTarget "Give me your money slotsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF8DC70215022AD0030DFDC /* Debug */,
+				9FF8DC71215022AD0030DFDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FF8DC72215022AD0030DFDC /* Build configuration list for PBXNativeTarget "Give me your money slotsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF8DC73215022AD0030DFDC /* Debug */,
+				9FF8DC74215022AD0030DFDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FF8DC3C215022AD0030DFDC /* Project object */;
+}
